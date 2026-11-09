@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pousada Serve Mais | Rancho no Lago de São Salvador - TO</title>
+<meta name="description" content="Descanse na Pousada Serve Mais, no Lago da Usina Hidrelétrica de São Salvador, Tocantins. Diárias a partir de R$ 1.500 para até 20 pessoas.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27><text y=%27.9em%27 font-size=%2790%27>🌅</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --fundo:#FAF7F0; --tinta:#28362C; --rio:#294638; --rio2:#42664D;
+  --buriti:#D69A55; --suave:#EAEDE2; --branco:#fff;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'Source Sans 3',system-ui,sans-serif;background:var(--fundo);color:var(--tinta);line-height:1.65;font-size:18px}
+h1,h2,h3{font-family:'Bricolage Grotesque',system-ui,sans-serif;line-height:1.1;letter-spacing:-.025em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--buriti);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+section{padding:84px 0}
+
+header{background:linear-gradient(135deg,#203b2e,#385a40 68%,#496b4d);color:#fff;position:relative;overflow:hidden}
+header:before{content:"";position:absolute;width:480px;height:480px;border:1px solid #ffffff12;border-radius:50%;right:-190px;top:-240px;box-shadow:0 0 0 36px #ffffff08,0 0 0 72px #ffffff06;pointer-events:none}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 22px;max-width:1040px;margin:0 auto}
+.logo{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:1.2rem;text-decoration:none;letter-spacing:-.02em}
+.nav a.link{font-size:.95rem;text-decoration:none;color:#f7f3e8;margin-left:26px;transition:color .2s}
+.nav a.link:hover{color:#e6b778}
+.hero{padding:62px 22px 92px;max-width:1040px;margin:0 auto;display:grid;grid-template-columns:1.05fr .95fr;gap:58px;align-items:center;position:relative}
+.hero h1{font-size:clamp(2.6rem,6vw,4.4rem);font-weight:800;max-width:12ch}
+.hero p{margin:22px 0 30px;max-width:46ch;color:#f5f2e8;font-size:1.12rem}
+.eyebrow{display:block;color:#e8bc83;text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;font-weight:700;margin-bottom:16px}
+.btn{display:inline-block;background:#e2ad70;color:#26382d;font-weight:700;padding:14px 27px;border-radius:999px;text-decoration:none;border:0;font:inherit;cursor:pointer;box-shadow:0 8px 22px #1113;transition:transform .2s,background .2s}
+.btn:hover{background:#efc28b;transform:translateY(-2px)}
+.foto{border-radius:24px 120px 24px 24px;aspect-ratio:4/3;background:linear-gradient(180deg,#193a2b00 45%,#142b20bb),url("imagens/churrasco-no-lago.jpeg") center 60%/cover;display:flex;align-items:flex-end;padding:25px;color:#fff;font-size:1rem;font-weight:600;box-shadow:0 24px 55px #14261d55}
+.foto:after{content:"Pousada Serve Mais • Tocantins"}
+
+h2{font-size:clamp(1.8rem,4vw,2.5rem);margin-bottom:12px}
+.sub{max-width:56ch;margin-bottom:38px;color:#62695e}
+
+.oferta{background:#EEEFE5}
+.destaques{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px}
+.destaque{background:#fff;border:1px solid #e2e4d8;border-radius:16px;padding:20px}
+.destaque strong{display:block;color:var(--rio);font-family:'Bricolage Grotesque',sans-serif;font-size:1.35rem;line-height:1.2}
+.destaque span{display:block;color:#62695e;font-size:.95rem;margin-top:6px}
+
+.experiencias{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.experiencia{background:#fff;border:1px solid #e8e3d8;border-radius:18px;padding:12px 12px 20px;box-shadow:0 10px 28px #463a2610;transition:transform .2s,box-shadow .2s}
+.experiencia:hover{transform:translateY(-4px);box-shadow:0 16px 32px #463a2620}
+.experiencia .foto-q{aspect-ratio:4/3;border-radius:12px;margin-bottom:18px;background-position:center;background-size:cover}
+.foto-rancho{background-image:url("imagens/rancho-e-jardim.jpeg")}
+.foto-deck{background-image:url("imagens/deck-do-lago.jpeg")}
+.foto-redario{background-image:url("imagens/redario-ao-por-do-sol.jpeg")}
+.experiencia h3{font-size:1.3rem;margin:0 8px 6px}
+.experiencia p{color:#62695e;font-size:1rem;margin:0 8px}
+
+.faixa{background:#EEEFE5}
+.comod{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px 28px;list-style:none;padding:0}
+.comod li{padding:12px 0;border-bottom:1px solid #d5d9c9;font-weight:600}
+.comod li:before{content:"✓";display:inline-grid;place-items:center;width:25px;height:25px;margin-right:10px;border-radius:50%;background:#dce4d5;color:var(--rio);font-size:.85rem}
+
+
+.local{display:grid;grid-template-columns:1fr 1.2fr;gap:36px;align-items:center}
+.mapa{aspect-ratio:4/3;border-radius:18px;background:linear-gradient(180deg,#193a2b00 45%,#142b20aa),url("imagens/deck-do-lago.jpeg") center/cover;display:flex;align-items:flex-end;padding:22px;color:#fff}
+.mapa a{background:#fff;color:var(--rio);font-weight:700;text-decoration:none;padding:11px 17px;border-radius:999px}
+.mapa a:hover{background:#f4ead9}
+
+.reserva{background:linear-gradient(135deg,#263f31,#365641);color:#fff}
+.reserva .sub{color:#ffffffcc}
+form{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:720px;background:#ffffff0b;border:1px solid #ffffff20;border-radius:18px;padding:22px}
+label{display:flex;flex-direction:column;gap:6px;font-weight:600;font-size:.95rem}
+input,select{font:inherit;padding:13px 14px;border-radius:10px;border:2px solid transparent;color:var(--tinta);background:#fff}
+input:focus,select:focus{outline:3px solid #e2ad7080;border-color:#e2ad70}
+form .btn{grid-column:1/-1;justify-self:start}
+.aviso{margin-top:14px;font-size:.9rem;opacity:.8}
+
+footer{padding:32px 22px;text-align:center;font-size:.9rem;color:#62695e;background:#f1eee5}
+
+.zap{position:fixed;right:18px;bottom:18px;z-index:5;background:#34865a;color:#fff;font-weight:700;padding:14px 20px;border-radius:999px;text-decoration:none;box-shadow:0 6px 18px #0003;transition:transform .2s,background .2s}
+.zap:hover{background:#286d48;transform:translateY(-2px)}
+
+@media(max-width:760px){
+  section{padding:62px 0}
+  .hero,.local{grid-template-columns:1fr}
+  .hero{gap:34px;padding-top:44px}
+  .hero h1{max-width:14ch}
+  .foto{aspect-ratio:4/3;border-radius:18px}
+  .nav a.link{display:none}
+  form{padding:16px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="nav" aria-label="Principal">
+    <a class="logo" href="#">Pousada Serve Mais</a>
+    <div><a class="link" href="#experiencias">O rancho</a><a class="link" href="#local">Localização</a><a class="link" href="#reservar">Reservar</a></div>
+  </nav>
+  <div class="hero">
+    <div>
+      <span class="eyebrow">Lago da Usina de São Salvador • Tocantins</span>
+      <h1>Seu descanso com vista para o lago.</h1>
+      <p>Reúna a família e os amigos para aproveitar o rancho, o lago e a tranquilidade da natureza na Pousada Serve Mais.</p>
+      <a class="btn" href="#reservar">Consultar disponibilidade</a>
+    </div>
+    <div class="foto" role="img" aria-label="Churrasco no deck com vista para o lago ao pôr do sol"></div>
+  </div>
+</header>
+
+<main>
+<section class="oferta">
+  <div class="wrap">
+    <h2>Um lugar especial para reunir todo mundo</h2>
+    <p class="sub">Aproveite o rancho e o Lago da Usina Hidrelétrica de São Salvador com a sua turma.</p>
+    <div class="destaques">
+      <div class="destaque"><strong>Diárias a partir de R$ 1.500</strong><span>Consulte as datas e condições pelo WhatsApp.</span></div>
+      <div class="destaque"><strong>Até 20 pessoas</strong><span>Espaço para curtir em grupo com família e amigos.</span></div>
+      <div class="destaque"><strong>Lago de São Salvador</strong><span>A cerca de 40 km de Palmeirópolis, Tocantins.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="experiencias">
+  <div class="wrap">
+    <h2>Um convite para aproveitar</h2>
+    <p class="sub">Natureza, bons momentos e o clima tranquilo do rancho à beira do lago.</p>
+    <div class="experiencias">
+      <article class="experiencia"><div class="foto-q foto-rancho" role="img" aria-label="Rancho cercado por árvores e gramado"></div><h3>Sossego no campo</h3><p>Um cantinho verde para desacelerar e aproveitar o ar livre.</p></article>
+      <article class="experiencia"><div class="foto-q foto-deck" role="img" aria-label="Deck de convivência junto ao lago"></div><h3>Momentos junto ao lago</h3><p>Curta a paisagem e reúna a turma no deck da pousada.</p></article>
+      <article class="experiencia"><div class="foto-q foto-redario" role="img" aria-label="Rede na varanda com vista para o pôr do sol"></div><h3>Fim de tarde sem pressa</h3><p>Relaxe na varanda e contemple o pôr do sol no Tocantins.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="local" class="faixa">
+  <div class="wrap local">
+    <div>
+      <h2>Como chegar</h2>
+      <p class="sub" style="margin-bottom:0">A Pousada Serve Mais fica no Lago da Usina Hidrelétrica de São Salvador, a cerca de 40 km de Palmeirópolis-TO. Consulte a rota antes de sair.</p>
+    </div>
+    <div class="mapa"><a href="https://www.google.com/maps/search/?api=1&amp;query=Rancho Serve Mais - S/N - Ilha Verde Zona Rural, Palmeirópolis - TO, 77365-000" target="_blank" rel="noopener noreferrer">Ver região no Google Maps</a></div>
+  </div>
+</section>
+
+<section id="reservar" class="reserva">
+  <div class="wrap">
+    <h2>Peça sua reserva</h2>
+    <p class="sub">Informe as datas e o tamanho do grupo. A pousada confirma a disponibilidade e os detalhes direto com você.</p>
+    <form id="f">
+      <label>Seu nome<input id="nome" required autocomplete="name"></label>
+      <label>Entrada<input id="ent" type="date" required></label>
+      <label>Saída<input id="sai" type="date" required></label>
+      <label>Pessoas no grupo<input id="pax" type="number" min="1" max="20" value="2" required></label>
+      <button class="btn" type="submit">Enviar pelo WhatsApp</button>
+    </form>
+    <p class="aviso">Diárias a partir de R$ 1.500 para até 20 pessoas. Consulte valores e disponibilidade.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>Pousada Serve Mais · Lago da Usina de São Salvador · Tocantins</p>
+  <p>Instagram: @pousadaservemais</p>
+</footer>
+
+<a class="zap" id="zap" href="#">WhatsApp</a>
+
+<script>
+// TROQUE pelo número da pousada: DDI 55 + DDD + número, só dígitos
+var NUMERO = "5563992153978";
+
+function br(d){var p=d.split("-");return p[2]+"/"+p[1]+"/"+p[0];}
+
+document.getElementById("zap").href =
+  "https://wa.me/" + NUMERO + "?text=" + encodeURIComponent("Olá! Vi o site da Pousada Serve Mais e gostaria de informações.");
+
+var ent = document.getElementById("ent"), sai = document.getElementById("sai");
+var d = new Date(), hoje = d.getFullYear() + "-" + String(d.getMonth()+1).padStart(2,"0") + "-" + String(d.getDate()).padStart(2,"0");
+ent.min = hoje; sai.min = hoje;
+ent.addEventListener("change", function(){ sai.min = ent.value || hoje; });
+
+document.getElementById("f").addEventListener("submit", function(e){
+  e.preventDefault();
+  if (sai.value <= ent.value) { alert("A data de saída precisa ser depois da entrada."); return; }
+  var msg = "Olá! Quero pedir uma reserva na Pousada Serve Mais.\n" +
+    "Nome: " + document.getElementById("nome").value + "\n" +
+    "Entrada: " + br(ent.value) + "\n" +
+    "Saída: " + br(sai.value) + "\n" +
+    "Pessoas no grupo: " + document.getElementById("pax").value;
+  window.open("https://wa.me/" + NUMERO + "?text=" + encodeURIComponent(msg), "_blank");
+});
+</script>
+</body>
+</html>
